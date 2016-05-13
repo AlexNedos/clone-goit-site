@@ -1,1 +1,2 @@
-# created clone goit site (test) 
+# Created clone goit site 
+# http://goit.ua/ (original)
