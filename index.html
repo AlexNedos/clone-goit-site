@@ -16,13 +16,67 @@
 			<div class="header__content__logo"><img src="img/logo.png" alt=""></div>
 			<div class="header__content__menu">
 				<ul class="header__content__menu__list">
-					<li class="header__content__menu__item"><a href="" class="header__content__menu__link">Курсы</a></li>
+					<li class="menu__list__dropdown">
+						<a href="">Курсы</a>
+						<ul class="submenu">
+							<li class="menu__list__item"><a href="">GoStart</a></li>
+							<li class="menu__list__dropdown">
+								<a href="">GoQA</a>
+								<ul class="submenu">
+									<li class="menu__list__item"><a href="">GoQA</a></li>
+									<li class="menu__list__item"><a href="">GoQA Kharkiv</a></li>
+								</ul>
+							</li>
+							<li class="menu__list__dropdown">
+								<a href="">GoFrontend</a>
+								<ul class="submenu">
+									<li class="menu__list__item"><a class="header__content__menu__link" href="">GoFrontend</a></li>
+									<li class="menu__list__item"><a href="">GoFrontend Kharkiv</a></li>
+								</ul>
+							</li>
+							<li class="menu__list__dropdown">
+								<a href="">GoJava</a>
+								<ul class="submenu">
+									<li class="menu__list__item"><a href="">GoJava</a></li>
+									<li class="menu__list__item"><a href="">GoJava Kharkiv</a></li>
+								</ul>
+							</li>
+							<li class="menu__list__item"><a href="">GoTeens</a></li>
+						</ul>
+					</li>
+					<li class="menu__list__item"><a href="">Почему IT?</a></li>
+					<li class="menu__list__item"><a href="">События</a></li>
+					<li class="menu__list__item"><a href="">Блог</a></li>
+					<li class="menu__list__dropdown">
+						<a href="">Работа с GoIT</a>
+						<ul class="submenu">
+							<li class="menu__list__item"><a href="">Мы ищем таланты!</a></li>
+							<li class="menu__list__item"><a href="">Стань преподавателем</a></li>
+							<li class="menu__list__item"><a href="">Стань ментором</a></li>
+							<li class="menu__list__item"><a href="">Программа стажеров</a></li>
+							<li class="menu__list__item"><a href="">Вакансии</a></li>
+						</ul>
+					</li>
+					<li class="menu__list__item"><a href="">Контакты</a></li>
+				</ul>
+<!--
+				<ul class="header__content__menu__list">
+					<li class="header__content__menu__item"><a href="" class="header__content__menu__link">Курсы</a>
+						<ul class="header__content__submenu">
+							<li class="header__content__submenu__item"><a href="" class="header__content__submenu__link">GoStart</a></li>
+							<li class="header__content__submenu__item"><a href="" class="header__content__submenu__link">GoQA</a></li>
+							<li class="header__content__submenu__item"><a href="" class="header__content__submenu__link">GoFrontend</a></li>
+							<li class="header__content__submenu__item"><a href="" class="header__content__submenu__link">GoJava</a></li>
+							<li class="header__content__submenu__item"><a href="" class="header__content__submenu__link">GoTeens</a></li>
+						</ul>
+					</li>
 					<li class="header__content__menu__item"><a href="" class="header__content__menu__link">Почему IT?</a></li>
 					<li class="header__content__menu__item"><a href="" class="header__content__menu__link">События</a></li>
 					<li class="header__content__menu__item"><a href="" class="header__content__menu__link">Блог</a></li>
 					<li class="header__content__menu__item"><a href="" class="header__content__menu__link">Работа с GoIT</a></li>
 					<li class="header__content__menu__item"><a href="" class="header__content__menu__link">Контакты</a></li>
 				</ul>
+-->
 				<div class="header__cta">
 					<img src="img/header-lead-gift-icon.png" alt="" class="header__cta__img">
 					<a href="" class="header__cta__link">Бесплатная консультация</a>
@@ -32,6 +86,61 @@
 		</div>
 	</header>
 	<!--HEADER-->
+	<script src="js/jquery-1.12.3.min.js"></script>
+	<script src="js/script.js"></script>
 </body>
 
 </html>
+
+
+
+
+<!--
+<ul class="header__content__menu__list">
+	<li class="menu__list__dropdown">
+		<a href="">Курсы</a>
+		<ul class="submenu">
+			<li class="menu__list__item"><a href="">GoStart</a></li>
+			<li class="menu__list__dropdown">
+			<a href="">GoQA</a>
+				<ul class="submenu">
+					<li class="menu__list__item"><a href="">GoQA</a></li>
+					<li class="menu__list__item"><a href="">GoQA Kharkiv</a></li>
+				</ul>
+			</li>
+			<li class="menu__list__dropdown">
+			<a href="">GoFrontend</a>
+				<ul class="submenu">
+					<li class="menu__list__item"><a href="">GoFrontend</a></li>
+					<li class="menu__list__item"><a href="">GoFrontend Kharkiv</a></li>
+				</ul>
+			</li>
+			<li class="menu__list__dropdown">
+			<a href="">GoJava</a>
+				<ul class="submenu">
+					<li class="menu__list__item"><a href="">GoJava</a></li>
+					<li class="menu__list__item"><a href="">GoJava Kharkiv</a></li>
+				</ul>
+			</li>
+			<li class="menu__list__item"><a href="">GoTeens</a></li>
+		</ul>
+	</li>
+	<li class="menu__list__item"><a href="">Почему IT?</a></li>
+	<li class="menu__list__item"><a href="">События</a></li>
+	<li class="menu__list__item"><a href="">Блог</a></li>
+	<li class="menu__list__dropdown">
+		<a href="">Работа с GoIT</a>
+		<ul class="submenu">
+			<li class="menu__list__item"><a href="">Мы ищем таланты!</a></li>
+			<li class="menu__list__item"><a href="">Стань преподавателем</a></li>
+			<li class="menu__list__item"><a href="">Стань ментором</a></li>
+			<li class="menu__list__item"><a href="">Программа стажеров</a></li>
+			<li class="menu__list__item"><a href="">Вакансии</a></li>
+		</ul>
+	</li>
+	<li class="menu__list__item"><a href="">Контакты</a></li>
+</ul>
+-->
+
+
+

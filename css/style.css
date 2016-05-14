@@ -91,6 +91,82 @@ header {
 
 
 
+.header__content__menu ul li {
+	display: inline-block;
+	position: relative;
+}
+
+.header__content__menu li ul {
+	text-align: center;
+/*	border-radius: 0px;*/
+	background-color: rgba(0, 0, 0, 0);
+	position: absolute;
+	left: -55px;
+	top: 40px;
+	width: 200px;
+}
+
+.header__content__menu li li {
+	position: relative;
+	margin: 0;
+	display: block;
+}
+
+.header__content__menu li li ul {
+	position: absolute;
+	top: 0;
+	left: 200px;
+	margin: 0;
+}
+
+.header__content__menu a {
+	font-family: Roboto, Helvetica, sans-serif;
+	font-size: 18px;
+	text-align: center;
+	line-height: 18px;
+	font-weight: 100;
+	color: white;
+	height: 23px;
+	padding: 12px 15px 12px 15px;
+	display: inline-block;
+	text-decoration: none;
+}
+
+.header__content__menu a:hover,
+.header__content__menu a:focus,
+.header__content__menu a:active {
+
+	background-color: rgba(220, 220, 220, 0.25);
+}
+
+.header__content__menu li li a {
+	border-bottom: solid 1px rgb(173, 151, 151);
+	margin: 0 10px;
+	padding: 0;
+}
+
+.header__content__menu li li:last-child a {
+	border-bottom: none;
+}
+
+ul.submenu {
+	display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
