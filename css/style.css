@@ -1,5 +1,5 @@
 body {
-	background-color: cornflowerblue;
+	background-color: #bfbfbf;
 	color: #494c51;
 }
 
@@ -11,9 +11,9 @@ header {
 	font-size: 14px;
 	line-height: 16px;
 	word-spacing: 0px;
-	width: 1283px;
+	width: 1292px;
 	height: 134px;
-	background-color: #ff7600;
+	background: #ed6300 url(../img/orange-banner-bg.jpg) center bottom;
 	border-bottom: 1px solid white;
 	position: fixed;
 	padding: 11px 0 0 0;
@@ -23,6 +23,117 @@ header {
 	width: 1150px;
 	margin: 19px 0px 0px 72px;
 }
+
+.header__content__menu__list {
+	margin: -51px 0px 0px 195px
+}
+
+.header__content__menu__item {
+	display: inline-block;
+}
+
+.header__content__menu__link {
+	font-family: Roboto, Helvetica, sans-serif;
+	font-size: 18px;
+	text-align: center;
+	line-height: 18px;
+	font-weight: 100;
+	color: white;
+	height: 23px;
+	padding: 12px 15px;
+	display: inline-block;
+	;
+	text-decoration: none;
+}
+
+.header__content__menu__list > li:hover {
+	background-color: rgba(220, 220, 220, 0.25);
+}
+
+.header__content__menu ul li {
+	display: inline-block;
+	position: relative;
+}
+
+.header__content__menu li ul {
+	text-align: left;
+	background-color: #0187f6;
+	position: absolute;
+	top: 47px;
+	width: 125px;
+	box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.4);
+}
+
+.header__content__menu li ul li a {
+	padding: 12px 15px 15px 15px;
+}
+
+.header__content__menu li li {
+	display: block;
+}
+
+.header__content__menu li li ul {
+	position: absolute;
+	top: 0px;
+	left: 125px;
+	width: 180px;
+}
+
+.header__content__menu__link {
+	font-family: Roboto, Helvetica, sans-serif;
+	font-size: 18px;
+	line-height: 18px;
+	font-weight: 100;
+	color: white;
+	height: 23px;
+	display: inline-block;
+	text-decoration: none;
+}
+
+.header__content__menu li li a {
+	display: block;
+	text-align: left;
+}
+
+ul.submenu {
+	display: none;
+}
+
+.header__content__menu__list .header__menu__list__dropdown:hover > .submenu {
+	display: block;
+}
+
+.menu--job {
+	background-color: #0187f6;
+	width: 198px;
+}
+
+
+/*HEADER COLOR*/
+
+.menu--orange {
+	background-color: #f07800;
+}
+
+.menu--green {
+	background-color: #0dc166;
+}
+
+.menu--purple {
+	background-color: #7750f8;
+}
+
+.menu--blue {
+	background-color: #0000ff;
+}
+
+.menu--yello {
+	background-color: #ffba00;
+}
+
+
+/*HEADER COLOR*/
+
 .header__cta {
 	margin: 0px 0px 0px 887px;
 	display: inline-block;
@@ -59,190 +170,6 @@ header {
 	right: -1126px;
 	position: relative;
 }
-.header__content__menu__list {
-	margin: -51px 0px 0px 195px
-}
-
-.header__content__menu__item {
-	display: inline-block;
-}
-
-.header__content__menu__link {
-	font-family: Roboto, Helvetica, sans-serif;
-	font-size: 18px;
-	text-align: center;
-	line-height: 18px;
-	font-weight: 100;
-	color: white;
-	height: 23px;
-	padding: 12px 15px;
-	display: inline-block;
-	;
-	text-decoration: none;
-}
-
-.header__content__menu__link:hover {
-	background-color: rgba(220, 220, 220, 0.25);
-}
-
-.header__content__menu ul li {
-	display: inline-block;
-	position: relative;
-}
-
-.header__content__menu li ul {
-	text-align: left;
-	background-color: #0187f6;
-	position: absolute;
-	top: 47px;
-	width: 230px;
-	box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.4);
-}
-.header__content__menu li ul li a{
-	padding: 12px 15px 15px 15px;	
-}
-
-.header__content__menu li li {
-	display: block;
-}
-
-.header__content__menu li li ul {
-	position: absolute;
-	top: 0px;
-	left: 172px;
-	width: 200px;
-}
-
-.header__content__menu__link {
-	font-family: Roboto, Helvetica, sans-serif;
-	font-size: 18px;
-	line-height: 18px;
-	font-weight: 100;
-	color: white;
-	height: 23px;
-	display: inline-block;
-	text-decoration: none;
-
-}
-
-.header__content__menu__link:hover,
-.header__content__menu__link:focus,
-.header__content__menu__link:active {
-	background-color: rgba(220, 220, 220, 0.25);
-}
-
-.header__content__menu li li a {
-	display: block;
-	text-align: left;
-}
-
-ul.submenu {
-	display: none;
-}
-
-.header__content__menu__list .header__menu__list__dropdown:hover > .submenu {
-	display: block;
-}
 
 
 /*HEADER*/
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
