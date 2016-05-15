@@ -1,6 +1,9 @@
 body {
 	background-color: #ffffff;
 	color: #494c51;
+	font-size: 14px;
+	font-family: Roboto, Helvetica, sans-serif;
+	line-height: 16px;
 }
 
 
@@ -181,16 +184,20 @@ ul.submenu {
 
 /*HEADER*/
 
-.container {
-	width: 100%;
-	max-width: 1292px;
-	margin: 0 auto;
-	
-}
- .background{
+
+/*MAIN*/
+
+.background {
 	width: 100%;
 	background: url(../img/orange-banner-bg.jpg);
 }
+
+.container {
+	margin: 0 auto;
+	max-width: 1292px;
+	width: 100%;
+}
+
 .container__main {
 	top: 145px;
 	margin: 0 auto;
@@ -209,14 +216,13 @@ ul.submenu {
 }
 
 .container__main__text {
-	padding: 0px 100px 0px 100px;
 	margin: 10px 0px 0px 0px;
+	padding: 0px 100px 0px 100px;
 	height: 230px;
 	color: white;
 	font-size: 52px;
 	font-family: Roboto, Helvetica, sans-serif;
 	line-height: 54px;
-/*	display: block;*/
 }
 
 .container__main__text__link img {
@@ -224,34 +230,83 @@ ul.submenu {
 }
 
 
-.container__directions{
-	margin: 0px 280px 0px 200px;	
+/*MAIN*/
+
+
+/*directions*/
+
+.container__directions {
+	margin: 0px 280px 0px 200px;
 	text-align: center;
 }
 
 .container__directions__header {
-/*	text-align: center;*/
+	margin: 61px -79px 23px 0px;
+	font-size: 52px;
+	font-family: Roboto, Helvetica, sans-serif;
+	line-height: 54px;
+}
+
+.container__directions__text__link {
+	display: inline-block;
+	margin: 17px 0px 0px 39px;
+}
+
+
+/*directions*/
+
+
+/*SYSTEM*/
+
+.bg--grey {
+	background: #f8f8f8;
+}
+
+.container__system {
+	margin: 0 auto;
+	margin-top: 90px;
+	padding: 55px 0;
+	width: 100%;
+	height: 600px;
+	text-align: center;
+}
+
+.container__system__box__img {
+	margin-bottom: 31px;
+	width: 90px;
+	height: 90px;
+}
+
+.container__system__header {
+	font-weight: 100;
 	font-size: 52px;
 	line-height: 54px;
-	font-family: Roboto, Helvetica, sans-serif;
-	color: #4a4a4a;
-	margin: 61px -79px 20px 0px;
 }
 
-.container__directions__text__link{
-	margin: 17px 0px 0px 39px;
-	display: inline-block;
+.container__system__box {
+	float: left;
+	margin: 50px -54px 0px 0px;
+	margin-top: 30px;
+	margin-left: 57px;
+	padding: 19px;
+	min-height: 410px;
+	width: 350px;
+	border-bottom: 3px solid #ee6c00;
+	background-color: white;
+}
+
+.container__system__box__header {
+	margin: 0 0 20px;
+	font-size: 18px;
+	line-height: 24px;
+}
+
+.container__system__box__text {
+	margin: 0 auto;
+	width: 335px;
+	font-size: 16px;
+	line-height: 22px;
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
+/*SYSTEM*/
