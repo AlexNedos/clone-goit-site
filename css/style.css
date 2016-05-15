@@ -65,7 +65,7 @@ header {
 }
 
 .header__content__menu li ul li a {
-	padding: 12px 15px 15px 15px;
+	padding: 12px 15px 12px 15px;
 }
 
 .header__content__menu li li {
@@ -76,7 +76,7 @@ header {
 	position: absolute;
 	top: 0px;
 	left: 125px;
-	width: 180px;
+	width: 191px;
 }
 
 .header__content__menu__link {
